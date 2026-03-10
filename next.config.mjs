@@ -18,6 +18,10 @@ const nextConfig = {
                 protocol: "https",
                 hostname: "www.theraviz.com",
             },
+            {
+                protocol: "https",
+                hostname: "myfoodstory.com",
+            },
         ],
     },
 };
