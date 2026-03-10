@@ -92,7 +92,7 @@ export default function SignupPage() {
                                     type="text"
                                     required
                                     className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl leading-5 bg-white/50 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-kerala-gold focus:border-kerala-gold sm:text-sm transition-all"
-                                    placeholder="Enter your name"
+                                    placeholder="Enter your Name"
                                     value={formData.name}
                                     onChange={handleChange}
                                 />
@@ -110,7 +110,7 @@ export default function SignupPage() {
                                     type="email"
                                     required
                                     className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl leading-5 bg-white/50 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-kerala-gold focus:border-kerala-gold sm:text-sm transition-all"
-                                    placeholder="Enter your email"
+                                    placeholder="Enter your Email"
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
@@ -128,7 +128,7 @@ export default function SignupPage() {
                                     type="password"
                                     required
                                     className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl leading-5 bg-white/50 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-kerala-gold focus:border-kerala-gold sm:text-sm transition-all"
-                                    placeholder="••••••••"
+                                    placeholder="Enter Password"
                                     value={formData.password}
                                     onChange={handleChange}
                                 />
@@ -146,7 +146,7 @@ export default function SignupPage() {
                                     type="password"
                                     required
                                     className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl leading-5 bg-white/50 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-kerala-gold focus:border-kerala-gold sm:text-sm transition-all"
-                                    placeholder="••••••••"
+                                    placeholder="Confirm Password"
                                     value={formData.confirmPassword}
                                     onChange={handleChange}
                                 />
