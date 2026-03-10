@@ -83,12 +83,12 @@ export default function MyOrdersPage() {
                                                 {order.status}
                                             </span>
                                         </div>
-                                        <p className="text-sm text-gray-500 flex items-center gap-1">
-                                            <Clock className="w-3.5 h-3.5" />
-                                            {new Date(order.createdAt).toLocaleDateString()} at {new Date(order.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                                        <p className="text-sm text-gray-500 flex items-center gap-1 mt-2">
+                                            <Clock className="w-3.5 h-3.5 shrink-0" />
+                                            <span className="truncate">{new Date(order.createdAt).toLocaleDateString()} at {new Date(order.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                                         </p>
                                     </div>
-                                    <div className="text-right">
+                                    <div className="text-left md:text-right mt-4 md:mt-0">
                                         <p className="text-sm text-gray-500 mb-1">Total Amount</p>
                                         <p className="text-2xl font-bold text-kerala-green">₹{order.totalAmount}</p>
                                     </div>

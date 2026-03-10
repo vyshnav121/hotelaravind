@@ -65,8 +65,8 @@ export default function OrdersPage() {
                 </div>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-card border border-gray-100 overflow-hidden">
-                <table className="w-full">
+            <div className="bg-white rounded-2xl shadow-card border border-gray-100 overflow-x-auto">
+                <table className="w-full min-w-[1000px]">
                     <thead className="bg-gray-50/50 border-b border-gray-100">
                         <tr>
                             <th className="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Order ID</th>
@@ -251,8 +251,8 @@ export default function OrdersPage() {
                             {/* Order Items */}
                             <div className="space-y-4">
                                 <h3 className="font-bold text-gray-900 border-b pb-2">Order Items</h3>
-                                <div className="bg-gray-50 rounded-xl overflow-hidden border border-gray-100">
-                                    <table className="w-full">
+                                <div className="bg-gray-50 rounded-xl overflow-x-auto border border-gray-100">
+                                    <table className="w-full min-w-[400px]">
                                         <thead className="bg-gray-100">
                                             <tr>
                                                 <th className="px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase">Item</th>

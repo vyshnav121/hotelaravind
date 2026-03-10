@@ -94,7 +94,7 @@ export default function Home() {
             {/* Dynamic Cards */}
             {[
               { name: 'Biriyani', sub: 'Aromatic & Spicy', img: 'https://www.maggi.in/sites/default/files/styles/srh_recipes/public/srh_recipes/83100cde6b3045cdce27048211f14019.jpg?h=4f5b30f1&itok=hrD4cQhe' },
-              { name: 'Meals', sub: 'Traditional Sadya', img: 'https://www.theraviz.com/wp-content/uploads/2024/08/onam.jpg' },
+              { name: 'Meals', sub: 'Traditional Sadya', img: 'https://www.theraviz.com/wp-content/uploads/2024/08/onam.jpg ' },
               { name: 'Starters', sub: 'Crispy & Delicious', img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop' },
               { name: 'Beverages', sub: 'Cool & Refreshing', img: 'https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=800&auto=format&fit=crop' }
             ].map((cat, idx) => (

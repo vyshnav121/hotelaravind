@@ -198,6 +198,14 @@ export default function Navbar() {
                                     <div className="px-3 py-2 text-kerala-gold text-sm font-semibold border-t border-white/10 mt-2 pt-4">
                                         Signed in as {session.user.name}
                                     </div>
+                                    <Link
+                                        href="/orders"
+                                        onClick={() => setIsOpen(false)}
+                                        className="block px-3 py-3 rounded-lg text-base font-medium text-white hover:text-kerala-green hover:bg-kerala-gold transition-colors"
+                                    >
+                                        <Package className="w-4 h-4 inline mr-2" />
+                                        My Orders
+                                    </Link>
                                     {userRole === 'admin' && (
                                         <Link
                                             href="/admin/dashboard"
